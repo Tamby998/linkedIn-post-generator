@@ -8,9 +8,4 @@ export interface LinkedInPostData {
   likesCount: number;
   commentsCount: number;
   sharesCount: number;
-  reactions?: {
-    likes: number;
-    loves: number;
-    support: number;
-  };
 }
