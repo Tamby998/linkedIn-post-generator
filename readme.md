@@ -1,7 +1,5 @@
 # LinkedIn Post Generator
 
-## English
-
 ### Overview
 
 A modern web application built with React, TypeScript, and Vite.
@@ -24,7 +22,7 @@ A modern web application built with React, TypeScript, and Vite.
 
 ```bash
 # Clone the repository
-git clone
+git clone https://github.com/Tamby998/linkedIn-post-generator.git
 
 # Navigate to project directory
 cd project
