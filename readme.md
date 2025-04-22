@@ -11,7 +11,7 @@ A modern web application built with React, TypeScript, and Vite.
 - Vite
 - TailwindCSS
 - HTML2Canvas
-- Lucide React (for icons)
+- svg for icons
 
 ### Prerequisites
 
