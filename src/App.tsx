@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import { Linkedin } from "lucide-react";
 import LinkedInForm from "./components/LinkedInForm";
 import LinkedInPreview from "./components/LinkedInPreview";
-import ImageGenerator from "./components/ImageGenerator";
 import { LinkedInPostData } from "./types";
 
 function App() {
@@ -16,7 +15,9 @@ function App() {
       "https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     likesCount: 142,
     commentsCount: 23,
-    sharesCount: 7,
+    sharesCount: 0,
+    position: "Développeur",
+    postTime: "À l'instant",
   });
 
   const previewRef = useRef<HTMLDivElement>(null);
@@ -40,7 +41,6 @@ function App() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <LinkedInForm postData={postData} setPostData={setPostData} />
-            <ImageGenerator previewRef={previewRef} />
           </div>
 
           <div className="flex flex-col items-center">
